@@ -1,0 +1,23 @@
+pon = int(input())
+uto = int(input())
+sre = int(input())
+cet = int(input())
+pet = int(input())
+sub = int(input())
+ned = int(input())
+niz = [pon, uto, sre, cet, pet, sub, ned]
+najtopliji = max(niz)
+if najtopliji==pon:
+    print(1)
+elif najtopliji==uto:
+    print(2)
+elif najtopliji==sre:
+    print(3)
+elif najtopliji==cet:
+    print(4)
+elif najtopliji==pet:
+    print(5)
+elif najtopliji==sub:
+    print(6)
+elif najtopliji==ned:
+    print(7)
