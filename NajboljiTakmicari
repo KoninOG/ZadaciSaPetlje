@@ -1,0 +1,14 @@
+prvi=float(input())
+drugi=float(input())
+treci=float(input())
+cetvrti=float(input())
+
+lista=[a1,a2,a3,a4]
+if prvi==min(lista):
+    print(1)
+if drugi==min(lista):
+    print(2)
+if treci==min(lista):
+    print(3)
+if cetvrti==min(lista):
+    print(4)
