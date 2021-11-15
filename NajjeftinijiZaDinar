@@ -1,0 +1,12 @@
+a = int(input())
+b = int(input())
+c = int(input())
+lista = [a, b, c]
+if a == min(lista):
+    a=1
+elif b == min(lista):
+    b=1
+elif c == min(lista):
+    c=1
+suma = a+b+c
+print(suma)
