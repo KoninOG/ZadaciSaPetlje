@@ -1,0 +1,19 @@
+izvinite na razocarenju ali ovaj zadatak me je jako mrzelo da radim pa sam prekopirao kod od arsenija sa discorda, sustina je da se sve pretvori u sekunde(ja sam probao da sve
+pretvorim u stepene i to bas i nije islo) tako da da, ovo je ARSENIJEV KOD, izvinite sto sam lopov
+
+stepen1=int(input())*3600
+minut1=int(input())*60
+sekunda1=int(input())
+stepen2=int(input())*3600
+minut2=int(input())*60
+sekunda2=int(input())
+ugao1 = stepen1 + minut1 + sekunda1
+ugao2 = stepen2 + minut2 + sekunda2
+ugao3 = 180*3600-(ugao1+ugao2)
+if ugao1 > ugao2 and ugao1> ugao3:
+    print (1)
+elif ugao2 > ugao1 and ugao2 > ugao3:
+    print (2)
+elif ugao3 > ugao1 and ugao3 >  ugao2:
+    print (3)
+
