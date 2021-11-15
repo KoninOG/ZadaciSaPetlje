@@ -1,0 +1,9 @@
+prva = int(input())
+druga = int(input())
+treca = int(input())
+cetvrta = int(input())
+peta = int(input())
+niz = [prva, druga, treca, cetvrta, peta]
+najmanja = min(niz)
+prosek = (prva+druga+treca+cetvrta+peta-najmanja)/4
+print(format(prosek, '.2f'))
