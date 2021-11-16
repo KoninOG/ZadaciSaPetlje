@@ -1,0 +1,12 @@
+a = int(input())
+b = int(input())
+c = int(input())
+suma=a+b+c
+lista=[a, b, c]
+najjeftinije = min(lista)
+najskuplje = max(lista)
+suma = suma-najjeftinije-najskuplje
+print(najjeftinije)
+print(suma)
+print(najskuplje)
+#vrloprostomatematicki
