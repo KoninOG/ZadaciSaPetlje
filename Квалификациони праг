@@ -1,0 +1,31 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+n = int(input())
+prosli = []
+nisu = []
+if a>=n:
+    prosli.append(a)
+else:
+     nisu.append(a)
+if b>=n:
+    prosli.append(b)
+else:
+     nisu.append(b)
+if c>=n:
+    prosli.append(c)
+else:
+     nisu.append(c)
+if d>=n:
+    prosli.append(d)
+else:
+     nisu.append(d)
+
+duzina = len(prosli)
+print(duzina)
+if a>n and b>n and d>n and c>n:
+    print('-')
+else:
+    prosek = sum(nisu)/len(nisu)
+    print(format(prosek, '.2f'))
