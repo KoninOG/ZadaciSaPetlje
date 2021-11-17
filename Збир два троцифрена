@@ -1,0 +1,21 @@
+s1 = int(input())
+d1 = int(input())
+j1 = int(input())
+s2 = int(input())
+d2 = int(input())
+j2 = int(input())
+j=j1+j2
+if j>=10:
+    helpd=1
+    j=j-10
+else:
+    helpd=0
+d=d1+d2+helpd
+if d>=10:
+    helps=1
+    d=d-10
+else:
+    helps=0
+s=s1+s2+helps
+broj = s*100+d*10+j
+print(broj)
