@@ -1,0 +1,16 @@
+n = int(input())
+stotine=n//100
+desetice=(n%100)//10
+jedinice=(n%100)%10
+
+broj=stotine*10+desetice
+
+if desetice==jedinice and stotine==jedinice:
+    print(0)
+elif stotine==jedinice:
+    print(desetice)
+elif desetice==jedinice:
+    print(stotine)
+elif stotine!=jedinice and desetice!=jedinice:
+    print(broj)
+    
