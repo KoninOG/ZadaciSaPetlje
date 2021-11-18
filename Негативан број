@@ -1,0 +1,10 @@
+n = int(input())
+indikator=0
+for i in range(n):
+    x = float(input())
+    if x<0:
+        indikator=indikator+1
+if indikator>0:
+    print('da')
+else:
+    print('ne')
