@@ -1,0 +1,10 @@
+def deljivsatri(broj):
+    if (broj % 3)==0:
+        return True
+    else:
+        return False
+n = int(input())
+for i in range(n):
+    x = int(input())
+    if deljivsatri(x):
+        print(x)
