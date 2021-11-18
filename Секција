@@ -1,0 +1,9 @@
+n = int(input())
+brojac = 0
+for i in range(n):
+  x=list(map(int,input().split()))
+  if x[5]>=4 and x[8]==5:
+      brojac= brojac+1
+print(brojac)
+    
+ 
