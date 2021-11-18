@@ -1,0 +1,8 @@
+x = int(input())
+n = int(input())
+brojac=0
+for i in range(n):
+    k = int(input())
+    if k==x:
+        brojac = brojac + 1
+print(brojac)
