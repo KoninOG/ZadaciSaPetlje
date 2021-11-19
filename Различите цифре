@@ -1,0 +1,10 @@
+n=int(input())
+n=str(n)
+i=0
+p='DA'
+while i<len(n)-1:
+    if(n[i]in n[(i+1):]):
+        p='NE'
+        break
+    i=i+1
+print(p)
