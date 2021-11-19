@@ -1,0 +1,12 @@
+n = int(input())
+lista = []
+while n>0:
+    x = n % 10
+    lista.append(x)
+    n = n // 10
+
+duzina = len(lista)
+suma = sum(lista)
+if duzina==0:
+    duzina=duzina+1
+print(duzina, suma)
