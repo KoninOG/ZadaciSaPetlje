@@ -1,0 +1,5 @@
+n = int(input())
+broj=n+5
+for i in range(1, broj):
+    if (i%5)==0:
+        print(i)
