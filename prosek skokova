@@ -1,0 +1,7 @@
+import sys
+ocene = [int(linija) for linija in sys.stdin]
+ocene=sorted(ocene)
+duzina=len(ocene)
+suma=sum(ocene[1:duzina-1])
+prosek=suma/(duzina-2)
+print(format(prosek, '.2f'))
